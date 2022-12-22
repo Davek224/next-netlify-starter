@@ -13,7 +13,6 @@ import Footer from '@components/Footer'
 //         z=e.getElementsByTagName(n)[0];z.parentNode.insertBefore(y,z);})(window,document,'script','pendo');
 // })('8d8c765b-239b-4fc9-5418-921143a0c448');
 
-
 let appKey = new URLSearchParams(window.location.search).get("apikey");
 (function(apiKey){
     (function(p,e,n,d,o){var v,w,x,y,z;o=p[d]=p[d]||{};o._q=o._q||[];
@@ -55,11 +54,13 @@ pendo.initialize({
     }
 });
 
+
 export default function Home() {
   return (
+    
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>Next.js Starter222!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
